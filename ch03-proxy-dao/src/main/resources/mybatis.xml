@@ -13,13 +13,13 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <!--数据库的驱动类名-->
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <!--连接数据库的新url字符串-->
                 <property name="url" value="jdbc:mysql://tcs:3306/user_db"/>
                 <!--访问数据库的用户名-->
                 <property name="username" value="root"/>
                 <!--密码-->
-                <property name="password" value="sjm654321"/>
+                <property name="password" value="sjm123"/>
             </dataSource>
         </environment>
 

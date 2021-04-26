@@ -44,7 +44,10 @@ public class TestMyBatis {
         student.setId(2005);
         student.setName("白云山");
         student.setEmail("ss@qq.com");
+        student.setAge(12);
+        System.out.println(student);
         int nums = dao.insertStudent(student);
         System.out.println("添加对象的数量：" + nums);
+        System.out.println(student);
     }
 }
